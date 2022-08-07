@@ -56,6 +56,7 @@ body {
   color: #666666;
   text-align: left;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -9881,19 +9882,112 @@ a.text-dark:hover, a.text-dark:focus {
   
   #logo{
     margin-top: -5rem;
+    margin-right: 25px;
   }
 
   #fics{
     margin-top:-15rem;
+    /* margin-right:-20rem; */
   }
 
   #reg{
     margin-top: -20rem;
+    margin-right: 2rem;
     
   }
 
+  #fics2{
+    margin-right: 5rem;
+  }
+
+  .logo2{
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 992px){
+.logo2{
+  margin-left: 6rem;
+}
+}
+
+
+figure {
+  display: inline-block;
+  /* border: 1px dotted gray; */
+ 
+}
+figure img {
+  vertical-align: top;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+figure figcaption {
+  border: 1px solid #17a2b8;
+  text-align: center;
+  color: black;
+  /* border-radius: 25px; */
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 #reg{
   color: red;
 }
+
+section {
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.section-bg, .services .icon-box {
+  background-color: #f8f9fa;
+}
+
+.section-title {
+  padding-bottom: 20px;
+}
+
+.section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title h2 span {
+  text-transform: lowercase;
+}
+
+/* .section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #e6636a;
+  margin: 4px 10px;
+} */
+
+.section-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #556270;
+}
+
+/* div.img::before {
+  content:url(https://www.iitg.ac.in/core/img/background.jpg);
+}​ */
+/* #iitguwahati{
+  width:100rem;
+  height:18rem;
+  background-image: url("https://www.iitg.ac.in/core/img/background.jpg");
+} */
